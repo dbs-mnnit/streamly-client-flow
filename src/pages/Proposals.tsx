@@ -1,4 +1,3 @@
-
 import React, { useState } from 'react';
 import { Link } from 'react-router-dom';
 import { Button } from '@/components/ui/button';
@@ -9,7 +8,7 @@ import { Select, SelectContent, SelectItem, SelectTrigger, SelectValue } from '@
 import { Dialog, DialogContent, DialogDescription, DialogHeader, DialogTitle, DialogTrigger } from '@/components/ui/dialog';
 import { Label } from '@/components/ui/label';
 import { Textarea } from '@/components/ui/textarea';
-import { Plus, Search, Filter, Eye, Edit, Send } from 'lucide-react';
+import { Plus, Search, Filter, Eye, Edit, Send, FileText } from 'lucide-react';
 import { mockProposals, mockClients } from '@/data/mockData';
 import { toast } from 'sonner';
 
